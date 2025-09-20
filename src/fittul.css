@@ -1,0 +1,96 @@
+.filtul-container {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .filtul-top {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  /* Поиск */
+  .filtul-search {
+    display: flex;
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .filtul-search input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .filtul-search-btn {
+    background: #5a4dff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+  }
+  
+  /* Категории */
+  .filtul-categories {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 180px;
+    outline: none;
+  }
+  
+  /* Кнопка */
+  .filtul-start-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #5a4dff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  /* Нижний блок */
+  .filtul-bottom {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .topics-label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .topics-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .topic-tag {
+    padding: 6px 12px;
+    background: #f3f4f6;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .topic-tag:hover {
+    background: #e5e7eb;
+  }
+  

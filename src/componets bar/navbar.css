@@ -1,0 +1,82 @@
+/* Контейнер навбара */
+#navbar {
+    width: 100%;
+    height: 6ch;
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    position: fixed;
+    top: 0;
+    background: rgba(19, 156, 248, 0.7); /* bg-sky-50/30 */
+    transition: all 0.3s ease-in-out;
+    z-index: 50;
+  }
+  
+  /* Логотип */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  /* Меню */
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #374151; /* neutral-700 */
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-menu a:hover {
+    color: #0284c7; /* sky-600 */
+  }
+  
+  /* Кнопки */
+  .navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .btn-signin {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1f2937; /* neutral-800 */
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-signin:hover {
+    background: #f3f4f6; /* hover bg */
+  }
+  
+  .btn-getstarted {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background: #1f2937; /* neutral-800 */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .btn-getstarted:hover {
+    background: #374151; /* neutral-700 */
+  }
+  
